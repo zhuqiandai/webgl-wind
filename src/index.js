@@ -89,8 +89,8 @@ export default class WindGL {
         util.bindTexture(gl, this.windTexture, 0);
         util.bindTexture(gl, this.particleStateTexture0, 1);
 
-        // this.drawScreen();
-        // this.updateParticles();
+        this.drawScreen();
+        this.updateParticles();
     }
 
     drawScreen() {
