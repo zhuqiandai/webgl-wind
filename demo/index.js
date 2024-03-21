@@ -1,5 +1,5 @@
 // using var to work around a WebKit bug
-var canvas = document.getElementById('canvas'); // eslint-disable-line
+// var canvas = document.getElementById('canvas'); // eslint-disable-line
 
 const pxRatio = Math.max(Math.floor(window.devicePixelRatio) || 1, 2);
 canvas.width = canvas.clientWidth;

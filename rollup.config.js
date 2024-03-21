@@ -3,7 +3,7 @@ import buble from 'rollup-plugin-buble';
 
 export default {
     entry: 'src/index.js',
-    dest: 'dist/wind-gl.js',
+    dest: 'demo/wind-gl.js',
     format: 'umd',
     moduleName: 'WindGL',
     plugins: [
